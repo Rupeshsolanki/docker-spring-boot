@@ -12,7 +12,11 @@
 ```sh
 docker build -t springio/gs-spring-boot-docker .
 ```
+## To run the docker container use the command
 
+```sh
+docker run -it -p 8080:8080 springio/gs-spring-boot-docker:latest
+```
 
 ### Refrence
 
